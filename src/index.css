@@ -80,6 +80,9 @@ input {
   transition: .3s;
 /* opacity: 1; */
 }
+.rate .red{
+  background-color: brown;
+}
 
 /* .card:hover .span{ */
 

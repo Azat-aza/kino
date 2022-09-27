@@ -42,8 +42,14 @@ function App() {
       </div>
       <div className="container">
         <div className="card-list">
-          {movies.map(movie => {
-            return < Movie key={movie.id} movie={movie} />
+          {movies.map((movie) => {
+            return < Movie key={movie.id} 
+            poster_path={movie.poster_path} 
+            title={movie.title}
+            name={movie.name}
+            vote_average={movie.vote_average}
+            overview={movie.overview}
+            />
           })}
 
           
