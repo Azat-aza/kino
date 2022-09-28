@@ -6,8 +6,6 @@ function Movie({poster_path, title, name, vote_average, overview}) {
 const setColor = (num) =>{
     if(num >= 8){
         return 'red'
-    }else{
-        return ''
     }
 
 }

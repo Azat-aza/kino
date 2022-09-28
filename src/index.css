@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(3, 7, 70);
   color: white;
+  max-width: 1500px;
 }
+.container{
+  max-width: 1200px;
+  padding: 0 25px;
+  margin: 0;
+}
+.nom{
+   color: black;
+}
+.futter{
+  display: flex;
+  margin: 82px;
+  gap: 30px;
+  /* flex-wrap: wrap; */
+  width: 50px;
+  height: 50px;
+} 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -69,19 +86,35 @@ input {
   max-width: 100%;
   transition: .3s;
 }
-.card:hover .span{
+/* .card:hover .span{
   position: absolute;
   bottom: 0;
-  /* background-color: transparent; */
   color: wheat;
  width: 200px;
   height: 50%;
   transform: translat(200%);
   transition: .3s;
-/* opacity: 1; */
-}
+} */
 .rate .red{
-  background-color: brown;
+  background-color: rgb(42, 235, 17);
+}
+.info{
+  position: relative;
+}
+.card:hover .overview{
+  transform: translateY(-100%);
+  opacity: 1;
+}
+.card .overview{
+  transform: translateY(0);
+  position: absolute;
+  top: -4px;
+  left: 0;
+  opacity: 0;
+  padding: 6px;
+  font-size: 15px;
+  background-color: transparent;
+  transition: .3s;
 }
 
 /* .card:hover .span{ */

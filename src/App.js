@@ -31,6 +31,7 @@ function App() {
   }
 
   return (
+    
     <>
       <div className="header">
         <div className="container">
@@ -54,10 +55,23 @@ function App() {
 
           
         </div>
-      </div>
+      </div> 
+            <hr></hr>
+
+       <div className="futter">
+       <img className="icoon" src={"https://images.squarespace-cdn.com/content/v1/51c9eab8e4b0814177b513c2/1395765712840-JURHR4V4QFLOE0656HTK/iconmonstr-facebook-5-icon-256.png"}/>
+                 <img className="icon" src={"https://img.icons8.com/material-outlined/384/whatsapp--v1.png"}/>
+                 <img className="icon" src={"https://cdn.coursehunter.net/category/github.png"}/>
+                 <img className="icon" src={"https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png"}/>
+                 <br></br><br></br><h1 className="nom">НОМЕР:(505)408727</h1>
+
+            </div>
     </>
 
   );
         }
+        
 
 export default App;
+
+// "homepage":"http://Azat-aza"
